@@ -1,0 +1,58 @@
+.nav {
+  @apply px-[24px]  py-[40px] lg:px-[60px] flex justify-between sticky top-0 z-10 items-center;
+}
+.rightNav {
+  @apply flex gap-[64px] items-center;
+}
+
+.logo {
+  @apply text-blue-600 text-[32px] font-bold leading-[48px] cursor-pointer;
+}
+
+.searchBar {
+  @apply hidden lg:block relative border py-[12px] pl-[64px] rounded-[70px] border-slate-300 w-[492px];
+}
+
+.searchIcon {
+  @apply absolute left-[20px] text-[24px] text-[#596780] cursor-pointer;
+}
+
+.input {
+  @apply w-full outline-none border-none placeholder:text-slate-500 placeholder:text-sm placeholder:font-medium placeholder:leading-[21px];
+}
+
+.filterIcon {
+  @apply absolute right-[20px] top-[12px] cursor-pointer;
+}
+
+.leftNav {
+  @apply flex gap-[40px] items-center;
+}
+
+.heartFilled {
+  @apply hidden lg:block text-red-500 text-[20px] cursor-pointer;
+}
+
+.heartOutlined {
+  @apply hidden lg:block text-red-500 text-[24px] cursor-pointer;
+}
+
+.notify {
+  @apply hidden lg:block relative cursor-pointer;
+}
+
+.notifyIcon {
+  @apply text-[#596780] text-[24px];
+}
+
+.notifyDot {
+  @apply absolute -top-1 -right-1 w-[11px] h-[11px] bg-red-500 rounded-full;
+}
+
+.settings {
+  @apply hidden lg:block text-[24px] text-[#596780];
+}
+
+.profileImage {
+  @apply rounded-full cursor-pointer;
+}
